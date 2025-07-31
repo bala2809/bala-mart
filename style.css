@@ -1,0 +1,78 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #28a745;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #f0f9f1;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Product Section */
+#products {
+  padding: 2rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+#products h2 {
+  margin-bottom: 1.5rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  box-sha
